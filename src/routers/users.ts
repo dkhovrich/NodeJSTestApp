@@ -8,8 +8,7 @@ const router: Router = express.Router();
 
 const users: User[] = [{
     id: uuid(),
-    firstName: 'Peter',
-    lastName: 'Parker'
+    email: 'PeterParker@mail.com'
 }];
 
 router.get('/', (req, res) => {
