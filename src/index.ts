@@ -7,7 +7,7 @@ import requestLogMiddleware from './middleware/requestLogMiddleware';
 import errorMiddleware from './middleware/errorMiddleware';
 import passportAuthMiddleware from './authenticate/middleware';
 import { userRouter } from './routers/users';
-import './authenticate/init';
+import './authenticate/localStrategy';
 
 const port: number = 3000;
 const app = express();
